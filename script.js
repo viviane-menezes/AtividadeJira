@@ -6,7 +6,7 @@ function login() {
     // Validação simples
     if (username === "" && password === "1234") {
       errorMsg.style.color = "green";
-      errorMsg.innerText = "Login bem-sucedido!";
+      errorMsg.innerText = "Login realizado com sucesso!";
       // Aqui você poderia redirecionar o usuário, por exemplo:
       // window.location.href = "dashboard.html";
     } else {
